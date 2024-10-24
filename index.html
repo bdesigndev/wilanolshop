@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop @lisabon3t</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> <!-- Mengimpor font Poppins -->
+    <style>
+        body {
+            background-color: #f0e6f6; /* Latar belakang lembut */
+            font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            min-height: 700px; /* Tinggi minimum untuk tampilan lebih baik */
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 26px; /* Ukuran font judul diperbesar */
+            color: #333;
+            font-weight: 600; /* Berat font lebih tebal */
+        }
+        p {
+            font-size: 18px;
+            color: #777;
+            margin: 20px 0; /* Margin atas dan bawah untuk jarak */
+        }
+        .icons {
+            margin-top: 20px;
+        }
+        .icon-section {
+            display: flex; /* Menggunakan flexbox untuk tata letak */
+            align-items: center; /* Menjaga agar ikon dan teks sejajar vertikal */
+            border: 1px solid #e0e0e0; /* Frame untuk seksi */
+            border-radius: 5px;
+            padding: 10px;
+            margin: 15px 0; /* Jarak antar seksi ikon */
+            background-color: #ffe6f2; /* Latar belakang seksi lembut */
+            text-align: left; /* Mengatur teks agar rata kiri */
+        }
+        .icon {
+            width: 50px; /* Ukuran ikon */
+            margin-right: 15px; /* Jarak antara ikon dan teks */
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 40px; /* Padding untuk tombol */
+            background-color: #ff66b2; /* Tombol warna lembut */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 600; /* Berat font tombol lebih tebal */
+        }
+        .cta-button:hover {
+            background-color: #ff3385; /* Warna saat hover */
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                min-height: 800px; /* Tinggi minimum di layar kecil */
+            }
+            h2 {
+                font-size: 22px; /* Ukuran font judul di layar kecil */
+            }
+            p {
+                font-size: 16px;
+            }
+            .cta-button {
+                padding: 10px 30px; /* Padding tombol untuk layar kecil */
+                font-size: 16px;
+            }
+            img {
+                width: 120px;
+            }
+            .icon {
+                width: 40px; /* Ukuran ikon di layar kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/profil.jpg" alt="Foto Profil">
+        <h2>WILAN Online Shop</h2>
+        <p>Dapatkan produk fashion terbaik dengan harga terjangkau!</p>
+        <div class="icons">
+            <div class="icon-section">
+                <img src="images/ig.png" alt="Instagram" class="icon">
+                <p>Ikuti kami di Instagram</p>
+            </div>
+            <div class="icon-section">
+                <img src="images/tiktok.png" alt="TikTok" class="icon">
+                <p>Ikuti kami di TikTok</p>
+            </div>
+            <div class="icon-section">
+                <img src="images/wa.png" alt="WhatsApp" class="icon">
+                <p>Hubungi kami di WhatsApp</p>
+            </div>
+            <div class="icon-section">
+                <img src="images/fb.png" alt="Facebook" class="icon">
+                <p>Like kami di Facebook</p>
+            </div>
+        </div>
+        <a href="produk.html" class="cta-button">Lihat Produk</a>
+    </div>
+</body>
+</html>
